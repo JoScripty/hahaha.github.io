@@ -53,7 +53,6 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  display: flex;
 }
 
 /* Vendor prefixes for better compatibility */
@@ -66,7 +65,4 @@ button {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Safari */
 }
 
-body, .resultCon {
-  display: -webkit-flex; /* Safari */
-  display: -moz-flex;    /* Firefox */
-}
+
